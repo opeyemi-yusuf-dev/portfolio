@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Opeyemi Yusuf | Technical Lead & Full-Stack Engineer</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-gray-100 font-sans antialiased selection:bg-indigo-500 selection:text-white">
+
+  <!-- Navigation -->
+  <nav class="border-b border-gray-800 bg-gray-900/80 backdrop-blur fixed top-0 w-full z-50">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+      <a href="#" class="text-xl font-bold tracking-tight text-white hover:text-indigo-400 transition">
+        Opeyemi<span class="text-indigo-500">.dev</span>
+      </a>
+      <div class="space-x-6 text-sm font-medium text-gray-400">
+        <a href="#about" class="hover:text-white transition">About</a>
+        <a href="#projects" class="hover:text-white transition">Projects</a>
+        <a href="#skills" class="hover:text-white transition">Tech Stack</a>
+        <a href="#contact" class="bg-indigo-600 hover:bg-indigo-500 text-white px-4 py-2 rounded-lg transition">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="about" class="pt-32 pb-20 max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-12 gap-12 items-center">
+    
+    <!-- Hero Text -->
+    <div class="md:col-span-8 space-y-6">
+      <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-indigo-500/30 bg-indigo-500/10 text-indigo-400 text-xs font-semibold">
+        <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+        Available for Technical Leadership & Product Roles
+      </div>
+      <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight leading-tight text-white">
+        Building Scalable SaaS Platforms & Backend Systems
+      </h1>
+      <p class="text-gray-400 text-lg leading-relaxed max-w-2xl">
+        Full-Stack Engineer & Technical Project Manager specializing in Laravel multi-tenant architectures, payment gateway integrations, dynamic database design, and high-performance Web APIs.
+      </p>
+
+      <!-- Action Buttons -->
+      <div class="flex flex-wrap gap-4 pt-2">
+        <a href="#projects" class="bg-indigo-600 hover:bg-indigo-500 text-white px-6 py-3 rounded-lg font-medium transition shadow-lg shadow-indigo-600/20">
+          View Projects
+        </a>
+        <a href="https://github.com/opeyemi-yusuf-dev" target="_blank" class="bg-gray-800 hover:bg-gray-700 text-gray-200 border border-gray-700 px-6 py-3 rounded-lg font-medium transition">
+          GitHub Profile
+        </a>
+      </div>
+    </div>
+
+    <!-- Profile Image Card -->
+    <div class="md:col-span-4 flex justify-center">
+      <div class="relative group">
+        <div class="absolute -inset-1 bg-gradient-to-r from-indigo-500 to-purple-600 rounded-2xl blur opacity-30 group-hover:opacity-75 transition duration-500"></div>
+        <div class="relative bg-gray-800 border border-gray-700 rounded-2xl p-4 overflow-hidden shadow-2xl">
+          <!-- Replace profile.jpg with your photo inside an assets folder -->
+          <img src="assets/profile.jpg" alt="Opeyemi Yusuf" onerror="this.src='https://via.placeholder.com/400x400/1e293b/ffffff?text=Opeyemi+Yusuf'" class="w-64 h-64 md:w-full md:h-auto rounded-xl object-cover">
+          <div class="pt-4 text-center">
+            <h3 class="font-bold text-white text-lg">Opeyemi Yusuf</h3>
+            <p class="text-indigo-400 text-xs font-medium">Software Engineer & PM</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Featured Projects Section -->
+  <section id="projects" class="py-20 border-t border-gray-800/60 bg-gray-900/50">
+    <div class="max-w-6xl mx-auto px-6">
+      <div class="mb-12">
+        <h2 class="text-3xl font-bold text-white">Featured Architecture & Repositories</h2>
+        <p class="text-gray-400 text-sm mt-2">Production-ready patterns, SaaS boilerplates, and live micro-applications.</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        
+        <!-- Project 1: Multi-Tenant Architecture -->
+        <div class="bg-gray-800/50 border border-gray-700/80 rounded-2xl p-6 hover:border-indigo-500/50 transition flex flex-col justify-between">
+          <div class="space-y-4">
+            <div class="flex justify-between items-start">
+              <span class="text-3xl">🏢</span>
+              <span class="text-xs bg-indigo-500/10 text-indigo-400 px-3 py-1 rounded-full border border-indigo-500/20">Laravel Architecture</span>
+            </div>
+            <h3 class="text-xl font-bold text-white">Laravel Multi-Tenant Starter Architecture</h3>
+            <p class="text-gray-400 text-sm leading-relaxed">
+              Dynamic multi-tenant SaaS starter with isolated database connections per request context, dynamic middleware resolution, and fail-safe API routing.
+            </p>
+            <div class="flex flex-wrap gap-2 pt-2">
+              <span class="text-xs bg-gray-700 text-gray-300 px-2.5 py-1 rounded">PHP 8.1+</span>
+              <span class="text-xs bg-gray-700 text-gray-300 px-2.5 py-1 rounded">Laravel</span>
+              <span class="text-xs bg-gray-700 text-gray-300 px-2.5 py-1 rounded">MySQL</span>
+            </div>
+          </div>
+          <div class="pt-6">
+            <a href="https://github.com/opeyemi-yusuf-dev/laravel-multitenant-starter" target="_blank" class="inline-flex items-center gap-2 text-indigo-400 hover:text-indigo-300 text-sm font-medium">
+              View Repository →
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 2: Paystack MicroStore -->
+        <div class="bg-gray-800/50 border border-gray-700/80 rounded-2xl p-6 hover:border-indigo-500/50 transition flex flex-col justify-between">
+          <div class="space-y-4">
+            <div class="flex justify-between items-start">
+              <span class="text-3xl">🛒</span>
+              <span class="text-xs bg-emerald-500/10 text-emerald-400 px-3 py-1 rounded-full border border-emerald-500/20">Live Frontend Demo</span>
+            </div>
+            <h3 class="text-xl font-bold text-white">Paystack E-Commerce MicroStore</h3>
+            <p class="text-gray-400 text-sm leading-relaxed">
+              Responsive single-page checkout storefront integrated with Paystack Inline JS payment modal, metadata payload formatting, and automated webhook event triggers.
+            </p>
+            <div class="flex flex-wrap gap-2 pt-2">
+              <span class="text-xs bg-gray-700 text-gray-300 px-2.5 py-1 rounded">JavaScript</span>
+              <span class="text-xs bg-gray-700 text-gray-300 px-2.5 py-1 rounded">Paystack API</span>
+              <span class="text-xs bg-gray-700 text-gray-300 px-2.5 py-1 rounded">Tailwind CSS</span>
+            </div>
+          </div>
+          <div class="pt-6 flex items-center justify-between">
+            <a href="https://github.com/opeyemi-yusuf-dev/onepage-paystack-store" target="_blank" class="text-gray-400 hover:text-white text-sm font-medium">
+              GitHub Repo
+            </a>
+            <a href="https://opeyemi-yusuf-dev.github.io/onepage-paystack-store/" target="_blank" class="text-indigo-400 hover:text-indigo-300 text-sm font-medium flex items-center gap-1">
+              Live Demo ↗
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="py-20 max-w-6xl mx-auto px-6">
+    <div class="mb-12">
+      <h2 class="text-3xl font-bold text-white">Technical Core & Stack</h2>
+      <p class="text-gray-400 text-sm mt-2">Tools, frameworks, and methodologies used across my projects.</p>
+    </div>
+
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+      <div class="bg-gray-800/40 border border-gray-700/60 p-4 rounded-xl text-center">
+        <span class="font-bold text-indigo-400 block text-lg">Laravel / PHP</span>
+        <span class="text-xs text-gray-400">Backend Framework</span>
+      </div>
+      <div class="bg-gray-800/40 border border-gray-700/60 p-4 rounded-xl text-center">
+        <span class="font-bold text-indigo-400 block text-lg">MySQL / Database</span>
+        <span class="text-xs text-gray-400">Relational Architecture</span>
+      </div>
+      <div class="bg-gray-800/40 border border-gray-700/60 p-4 rounded-xl text-center">
+        <span class="font-bold text-indigo-400 block text-lg">REST & Webhooks</span>
+        <span class="text-xs text-gray-400">APIs & Integrations</span>
+      </div>
+      <div class="bg-gray-800/40 border border-gray-700/60 p-4 rounded-xl text-center">
+        <span class="font-bold text-indigo-400 block text-lg">Agile & Scrum</span>
+        <span class="text-xs text-gray-400">Technical Management</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact & Footer -->
+  <footer id="contact" class="border-t border-gray-800 bg-gray-950 py-12">
+    <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-6 text-center md:text-left">
+      <div>
+        <h3 class="text-lg font-bold text-white">Let's Build Something Together</h3>
+        <p class="text-gray-400 text-xs mt-1">Open for Senior Developer, Technical Director, and Tech PM roles.</p>
+      </div>
+      <div class="flex gap-4">
+        <a href="https://github.com/opeyemi-yusuf-dev" target="_blank" class="bg-gray-800 hover:bg-gray-700 text-gray-200 text-xs px-4 py-2.5 rounded-lg border border-gray-700 transition">
+          GitHub
+        </a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
