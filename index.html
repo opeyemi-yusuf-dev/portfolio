@@ -3,128 +3,185 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Opeyemi Yusuf | Technical Lead & Full-Stack Engineer</title>
-  <!-- Tailwind CSS CDN -->
+  <title>Opeyemi Yusuf | Senior Software Engineer</title>
+  <meta name="description" content="Senior software engineer, 8+ years. Architected and shipped four live commercial platforms across fintech, edtech and hosting infrastructure. Laravel, Node.js, multi-tenant architecture, payment gateways.">
+  <meta property="og:title" content="Opeyemi Yusuf | Senior Software Engineer">
+  <meta property="og:description" content="Four live commercial platforms shipped. Laravel, Node.js, multi-tenant architecture, payment gateway integration.">
+  <meta property="og:type" content="website">
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-gray-900 text-gray-100 font-sans antialiased selection:bg-indigo-500 selection:text-white">
 
-  <!-- Navigation -->
   <nav class="border-b border-gray-800 bg-gray-900/80 backdrop-blur fixed top-0 w-full z-50">
     <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
       <a href="#" class="text-xl font-bold tracking-tight text-white hover:text-indigo-400 transition">
         Opeyemi<span class="text-indigo-500">.dev</span>
       </a>
-      <div class="space-x-6 text-sm font-medium text-gray-400">
-        <a href="#about" class="hover:text-white transition">About</a>
-        <a href="#projects" class="hover:text-white transition">Projects</a>
-        <a href="#skills" class="hover:text-white transition">Tech Stack</a>
+      <div class="hidden sm:flex space-x-6 text-sm font-medium text-gray-400 items-center">
+        <a href="#products" class="hover:text-white transition">Products</a>
+        <a href="#experience" class="hover:text-white transition">Experience</a>
+        <a href="#skills" class="hover:text-white transition">Stack</a>
         <a href="#contact" class="bg-indigo-600 hover:bg-indigo-500 text-white px-4 py-2 rounded-lg transition">Contact</a>
       </div>
+      <a href="#contact" class="sm:hidden bg-indigo-600 hover:bg-indigo-500 text-white px-4 py-2 rounded-lg transition text-sm">Contact</a>
     </div>
   </nav>
 
-  <!-- Hero Section -->
-  <section id="about" class="pt-32 pb-20 max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-12 gap-12 items-center">
-    
-    <!-- Hero Text -->
+  <!-- Hero -->
+  <section id="about" class="pt-32 pb-16 max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-12 gap-12 items-center">
     <div class="md:col-span-8 space-y-6">
-      <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-indigo-500/30 bg-indigo-500/10 text-indigo-400 text-xs font-semibold">
+      <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-emerald-500/30 bg-emerald-500/10 text-emerald-400 text-xs font-semibold">
         <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
-        Available for Technical Leadership & Product Roles
+        Open to remote roles &middot; UTC+1 &middot; Available for relocation
       </div>
       <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight leading-tight text-white">
-        Building Scalable SaaS Platforms & Backend Systems
+        I build and ship production platforms end to end
       </h1>
       <p class="text-gray-400 text-lg leading-relaxed max-w-2xl">
-        Full-Stack Engineer & Technical Project Manager specializing in Laravel multi-tenant architectures, payment gateway integrations, dynamic database design, and high-performance Web APIs.
+        Senior software engineer with 8+ years across fintech, edtech and hosting infrastructure. I have architected and shipped <span class="text-white font-medium">four live commercial platforms</span> &mdash; owning each from database schema through to production deployment &mdash; and led engineering teams of six at 99.9% sustained uptime.
       </p>
 
-      <!-- Action Buttons -->
+      <div class="grid grid-cols-3 gap-4 max-w-md pt-2">
+        <div>
+          <div class="text-2xl font-bold text-white">4</div>
+          <div class="text-xs text-gray-500">Live platforms</div>
+        </div>
+        <div>
+          <div class="text-2xl font-bold text-white">8+</div>
+          <div class="text-xs text-gray-500">Years shipping</div>
+        </div>
+        <div>
+          <div class="text-2xl font-bold text-white">99.9%</div>
+          <div class="text-xs text-gray-500">Uptime sustained</div>
+        </div>
+      </div>
+
       <div class="flex flex-wrap gap-4 pt-2">
-        <a href="#projects" class="bg-indigo-600 hover:bg-indigo-500 text-white px-6 py-3 rounded-lg font-medium transition shadow-lg shadow-indigo-600/20">
-          View Projects
+        <a href="#products" class="bg-indigo-600 hover:bg-indigo-500 text-white px-6 py-3 rounded-lg font-medium transition shadow-lg shadow-indigo-600/20">
+          See what I've shipped
         </a>
-        <a href="https://github.com/opeyemi-yusuf-dev" target="_blank" class="bg-gray-800 hover:bg-gray-700 text-gray-200 border border-gray-700 px-6 py-3 rounded-lg font-medium transition">
-          GitHub Profile
+        <a href="mailto:opeyemimorenikeji78@gmail.com" class="bg-gray-800 hover:bg-gray-700 text-gray-200 border border-gray-700 px-6 py-3 rounded-lg font-medium transition">
+          Get in touch
         </a>
       </div>
     </div>
 
-    <!-- Profile Image Card -->
     <div class="md:col-span-4 flex justify-center">
       <div class="relative group">
         <div class="absolute -inset-1 bg-gradient-to-r from-indigo-500 to-purple-600 rounded-2xl blur opacity-30 group-hover:opacity-75 transition duration-500"></div>
         <div class="relative bg-gray-800 border border-gray-700 rounded-2xl p-4 overflow-hidden shadow-2xl">
-          <!-- Replace profile.jpg with your photo inside an assets folder -->
-          <img src="assets/profile.jpg" alt="Opeyemi Yusuf" onerror="this.src='https://via.placeholder.com/400x400/1e293b/ffffff?text=Opeyemi+Yusuf'" class="w-64 h-64 md:w-full md:h-auto rounded-xl object-cover">
+          <img src="assets/profile.jpg" alt="Opeyemi Yusuf" class="w-64 h-64 md:w-full md:h-auto rounded-xl object-cover bg-gray-700">
           <div class="pt-4 text-center">
             <h3 class="font-bold text-white text-lg">Opeyemi Yusuf</h3>
-            <p class="text-indigo-400 text-xs font-medium">Software Engineer & PM</p>
+            <p class="text-indigo-400 text-xs font-medium">Senior Software Engineer</p>
+            <p class="text-gray-500 text-xs mt-1">Lagos, Nigeria</p>
           </div>
         </div>
       </div>
     </div>
-
   </section>
 
-  <!-- Featured Projects Section -->
-  <section id="projects" class="py-20 border-t border-gray-800/60 bg-gray-900/50">
+  <!-- Shipped Products -->
+  <section id="products" class="py-20 border-t border-gray-800/60 bg-gray-900/50">
     <div class="max-w-6xl mx-auto px-6">
       <div class="mb-12">
-        <h2 class="text-3xl font-bold text-white">Featured Architecture & Repositories</h2>
-        <p class="text-gray-400 text-sm mt-2">Production-ready patterns, SaaS boilerplates, and live micro-applications.</p>
+        <h2 class="text-3xl font-bold text-white">Shipped products</h2>
+        <p class="text-gray-400 text-sm mt-2">Live commercial platforms with real users and real transactions. Every one is clickable.</p>
       </div>
 
       <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-        
-        <!-- Project 1: Multi-Tenant Architecture -->
+
+        <!-- GlobbHost -->
         <div class="bg-gray-800/50 border border-gray-700/80 rounded-2xl p-6 hover:border-indigo-500/50 transition flex flex-col justify-between">
           <div class="space-y-4">
-            <div class="flex justify-between items-start">
-              <span class="text-3xl">🏢</span>
-              <span class="text-xs bg-indigo-500/10 text-indigo-400 px-3 py-1 rounded-full border border-indigo-500/20">Laravel Architecture</span>
+            <div class="flex justify-between items-start gap-3">
+              <h3 class="text-xl font-bold text-white">GlobbHost</h3>
+              <span class="shrink-0 text-xs bg-emerald-500/10 text-emerald-400 px-3 py-1 rounded-full border border-emerald-500/20">Live &middot; Commercial</span>
             </div>
-            <h3 class="text-xl font-bold text-white">Laravel Multi-Tenant Starter Architecture</h3>
             <p class="text-gray-400 text-sm leading-relaxed">
-              Dynamic multi-tenant SaaS starter with isolated database connections per request context, dynamic middleware resolution, and fail-safe API routing.
+              Web hosting platform running shared, VPS, dedicated and WordPress tiers. I built the automation layer: cPanel/WHM account provisioning on payment, recurring billing cycles, and automated suspension and renewal handling &mdash; so accounts are created, billed and expired without manual intervention.
             </p>
             <div class="flex flex-wrap gap-2 pt-2">
-              <span class="text-xs bg-gray-700 text-gray-300 px-2.5 py-1 rounded">PHP 8.1+</span>
-              <span class="text-xs bg-gray-700 text-gray-300 px-2.5 py-1 rounded">Laravel</span>
-              <span class="text-xs bg-gray-700 text-gray-300 px-2.5 py-1 rounded">MySQL</span>
+              <span class="text-xs bg-gray-700 text-gray-300 px-2.5 py-1 rounded">cPanel / WHM API</span>
+              <span class="text-xs bg-gray-700 text-gray-300 px-2.5 py-1 rounded">Recurring billing</span>
+              <span class="text-xs bg-gray-700 text-gray-300 px-2.5 py-1 rounded">PHP</span>
+              <span class="text-xs bg-gray-700 text-gray-300 px-2.5 py-1 rounded">LiteSpeed</span>
             </div>
           </div>
           <div class="pt-6">
-            <a href="https://github.com/opeyemi-yusuf-dev/laravel-multitenant-starter" target="_blank" class="inline-flex items-center gap-2 text-indigo-400 hover:text-indigo-300 text-sm font-medium">
-              View Repository →
+            <a href="https://globbhost.com" target="_blank" rel="noopener" class="inline-flex items-center gap-2 text-indigo-400 hover:text-indigo-300 text-sm font-medium">
+              globbhost.com &#8599;
             </a>
           </div>
         </div>
 
-        <!-- Project 2: Paystack MicroStore -->
+        <!-- GlobbRecharge -->
         <div class="bg-gray-800/50 border border-gray-700/80 rounded-2xl p-6 hover:border-indigo-500/50 transition flex flex-col justify-between">
           <div class="space-y-4">
-            <div class="flex justify-between items-start">
-              <span class="text-3xl">🛒</span>
-              <span class="text-xs bg-emerald-500/10 text-emerald-400 px-3 py-1 rounded-full border border-emerald-500/20">Live Frontend Demo</span>
+            <div class="flex justify-between items-start gap-3">
+              <h3 class="text-xl font-bold text-white">GlobbRecharge</h3>
+              <span class="shrink-0 text-xs bg-emerald-500/10 text-emerald-400 px-3 py-1 rounded-full border border-emerald-500/20">Live &middot; Fintech</span>
             </div>
-            <h3 class="text-xl font-bold text-white">Paystack E-Commerce MicroStore</h3>
             <p class="text-gray-400 text-sm leading-relaxed">
-              Responsive single-page checkout storefront integrated with Paystack Inline JS payment modal, metadata payload formatting, and automated webhook event triggers.
+              High-volume VTU platform for airtime and data across MTN, Airtel, Glo and 9mobile. I architected the transaction engine &mdash; Paystack and ALAT Pay (Wema Bank) integration, real-time delivery against carrier APIs, reconciliation, and failure handling with automatic reversal. Shipped with iOS and Android companion apps and a referral rewards system.
             </p>
             <div class="flex flex-wrap gap-2 pt-2">
-              <span class="text-xs bg-gray-700 text-gray-300 px-2.5 py-1 rounded">JavaScript</span>
-              <span class="text-xs bg-gray-700 text-gray-300 px-2.5 py-1 rounded">Paystack API</span>
-              <span class="text-xs bg-gray-700 text-gray-300 px-2.5 py-1 rounded">Tailwind CSS</span>
+              <span class="text-xs bg-gray-700 text-gray-300 px-2.5 py-1 rounded">Paystack</span>
+              <span class="text-xs bg-gray-700 text-gray-300 px-2.5 py-1 rounded">ALAT Pay</span>
+              <span class="text-xs bg-gray-700 text-gray-300 px-2.5 py-1 rounded">Transaction logic</span>
+              <span class="text-xs bg-gray-700 text-gray-300 px-2.5 py-1 rounded">Mobile apps</span>
             </div>
           </div>
-          <div class="pt-6 flex items-center justify-between">
-            <a href="https://github.com/opeyemi-yusuf-dev/onepage-paystack-store" target="_blank" class="text-gray-400 hover:text-white text-sm font-medium">
-              GitHub Repo
+          <div class="pt-6">
+            <a href="https://globbrecharge.com" target="_blank" rel="noopener" class="inline-flex items-center gap-2 text-indigo-400 hover:text-indigo-300 text-sm font-medium">
+              globbrecharge.com &#8599;
             </a>
-            <a href="https://opeyemi-yusuf-dev.github.io/onepage-paystack-store/" target="_blank" class="text-indigo-400 hover:text-indigo-300 text-sm font-medium flex items-center gap-1">
-              Live Demo ↗
+          </div>
+        </div>
+
+        <!-- GlobbEdu -->
+        <div class="bg-gray-800/50 border border-gray-700/80 rounded-2xl p-6 hover:border-indigo-500/50 transition flex flex-col justify-between">
+          <div class="space-y-4">
+            <div class="flex justify-between items-start gap-3">
+              <h3 class="text-xl font-bold text-white">GlobbEdu</h3>
+              <span class="shrink-0 text-xs bg-emerald-500/10 text-emerald-400 px-3 py-1 rounded-full border border-emerald-500/20">Live &middot; Multi-tenant SaaS</span>
+            </div>
+            <p class="text-gray-400 text-sm leading-relaxed">
+              Multi-tenant school management platform with true per-tenant database isolation &mdash; admissions, attendance, fees, assessments and analytics in one workspace. Cut administrative report processing time by over 50% and scaled to 1,000+ active students and staff, with native apps for parents, students and teachers.
+            </p>
+            <div class="flex flex-wrap gap-2 pt-2">
+              <span class="text-xs bg-gray-700 text-gray-300 px-2.5 py-1 rounded">Laravel</span>
+              <span class="text-xs bg-gray-700 text-gray-300 px-2.5 py-1 rounded">Multi-tenancy</span>
+              <span class="text-xs bg-gray-700 text-gray-300 px-2.5 py-1 rounded">MySQL</span>
+              <span class="text-xs bg-gray-700 text-gray-300 px-2.5 py-1 rounded">REST APIs</span>
+            </div>
+          </div>
+          <div class="pt-6">
+            <a href="https://globbedu.com" target="_blank" rel="noopener" class="inline-flex items-center gap-2 text-indigo-400 hover:text-indigo-300 text-sm font-medium">
+              globbedu.com &#8599;
+            </a>
+          </div>
+        </div>
+
+        <!-- Solvanz Edu -->
+        <div class="bg-gray-800/50 border border-gray-700/80 rounded-2xl p-6 hover:border-indigo-500/50 transition flex flex-col justify-between">
+          <div class="space-y-4">
+            <div class="flex justify-between items-start gap-3">
+              <h3 class="text-xl font-bold text-white">Solvanz Edu</h3>
+              <span class="shrink-0 text-xs bg-amber-500/10 text-amber-400 px-3 py-1 rounded-full border border-amber-500/20">In build &middot; MVP Aug 2026</span>
+            </div>
+            <p class="text-gray-400 text-sm leading-relaxed">
+              AI-assisted school management platform, built as sole engineer on contract. Delivered so far: student onboarding and enrolment flows, automated result-card generation, a computer-based testing module, and school fee collection with payment gateway integration, wallets and reconciliation.
+            </p>
+            <div class="flex flex-wrap gap-2 pt-2">
+              <span class="text-xs bg-gray-700 text-gray-300 px-2.5 py-1 rounded">Payment gateway</span>
+              <span class="text-xs bg-gray-700 text-gray-300 px-2.5 py-1 rounded">CBT engine</span>
+              <span class="text-xs bg-gray-700 text-gray-300 px-2.5 py-1 rounded">Reporting</span>
+            </div>
+          </div>
+          <div class="pt-6">
+            <a href="https://solvanz.com" target="_blank" rel="noopener" class="inline-flex items-center gap-2 text-indigo-400 hover:text-indigo-300 text-sm font-medium">
+              solvanz.com &#8599;
             </a>
           </div>
         </div>
@@ -133,44 +190,120 @@
     </div>
   </section>
 
-  <!-- Skills Section -->
-  <section id="skills" class="py-20 max-w-6xl mx-auto px-6">
+  <!-- Experience -->
+  <section id="experience" class="py-20 max-w-6xl mx-auto px-6">
     <div class="mb-12">
-      <h2 class="text-3xl font-bold text-white">Technical Core & Stack</h2>
-      <p class="text-gray-400 text-sm mt-2">Tools, frameworks, and methodologies used across my projects.</p>
+      <h2 class="text-3xl font-bold text-white">Experience</h2>
     </div>
+    <div class="space-y-8">
 
-    <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-      <div class="bg-gray-800/40 border border-gray-700/60 p-4 rounded-xl text-center">
-        <span class="font-bold text-indigo-400 block text-lg">Laravel / PHP</span>
-        <span class="text-xs text-gray-400">Backend Framework</span>
+      <div class="border-l-2 border-indigo-500/40 pl-6">
+        <div class="flex flex-wrap items-baseline gap-x-3">
+          <h3 class="text-lg font-bold text-white">Technical Consultant &mdash; Contract</h3>
+          <span class="text-xs text-emerald-400 font-medium">Current</span>
+        </div>
+        <p class="text-indigo-400 text-sm">Solvanz Technologies &middot; March 2026 &ndash; Present</p>
+        <p class="text-gray-400 text-sm mt-2 leading-relaxed">Sole engineer on Solvanz Edu. Requirements through build: onboarding, automated result cards, CBT, and fee collection with reconciliation. MVP due August 2026.</p>
       </div>
-      <div class="bg-gray-800/40 border border-gray-700/60 p-4 rounded-xl text-center">
-        <span class="font-bold text-indigo-400 block text-lg">MySQL / Database</span>
-        <span class="text-xs text-gray-400">Relational Architecture</span>
+
+      <div class="border-l-2 border-gray-700 pl-6">
+        <h3 class="text-lg font-bold text-white">Senior Software Engineer / Chief Technology Officer</h3>
+        <p class="text-indigo-400 text-sm">Globb Technology Solutions &middot; June 2022 &ndash; May 2026</p>
+        <p class="text-gray-400 text-sm mt-2 leading-relaxed">Architected and shipped GlobbEdu, GlobbRecharge and GlobbHost end to end, from schema design to production infrastructure. Led six in-house and contract engineers through two-week sprint cycles, running standups, code review and releases. Sustained 99.9% uptime across all hosted applications.</p>
       </div>
-      <div class="bg-gray-800/40 border border-gray-700/60 p-4 rounded-xl text-center">
-        <span class="font-bold text-indigo-400 block text-lg">REST & Webhooks</span>
-        <span class="text-xs text-gray-400">APIs & Integrations</span>
+
+      <div class="border-l-2 border-gray-700 pl-6">
+        <h3 class="text-lg font-bold text-white">IT Operations &amp; Systems Engineer</h3>
+        <p class="text-indigo-400 text-sm">Nehemiah Grace Developer Limited &middot; August 2018 &ndash; May 2022</p>
+        <p class="text-gray-400 text-sm mt-2 leading-relaxed">Administered core server infrastructure with Active Directory access control. Optimised enterprise ERP to streamline cross-departmental data flows, and managed external IT vendors against defined technical deliverables.</p>
       </div>
-      <div class="bg-gray-800/40 border border-gray-700/60 p-4 rounded-xl text-center">
-        <span class="font-bold text-indigo-400 block text-lg">Agile & Scrum</span>
-        <span class="text-xs text-gray-400">Technical Management</span>
+
+      <div class="border-l-2 border-gray-700 pl-6">
+        <h3 class="text-lg font-bold text-white">ICT Support &amp; Systems Analyst</h3>
+        <p class="text-indigo-400 text-sm">Intercontinental Distillers Limited &middot; December 2014 &ndash; June 2015</p>
+        <p class="text-gray-400 text-sm mt-2 leading-relaxed">Diagnosed system architecture, network configuration and database issues to maintain operational uptime.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="py-20 border-t border-gray-800/60 bg-gray-900/50">
+    <div class="max-w-6xl mx-auto px-6">
+      <div class="mb-12">
+        <h2 class="text-3xl font-bold text-white">Technical stack</h2>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div class="bg-gray-800/40 border border-gray-700/60 p-5 rounded-xl">
+          <h3 class="font-bold text-indigo-400 text-sm uppercase tracking-wide mb-2">Backend</h3>
+          <p class="text-gray-300 text-sm">PHP, Laravel, Node.js, Express.js, RESTful API design, webhooks</p>
+        </div>
+        <div class="bg-gray-800/40 border border-gray-700/60 p-5 rounded-xl">
+          <h3 class="font-bold text-indigo-400 text-sm uppercase tracking-wide mb-2">Data</h3>
+          <p class="text-gray-300 text-sm">MySQL, multi-tenant architecture, schema design, migrations, transaction logic, payment reconciliation</p>
+        </div>
+        <div class="bg-gray-800/40 border border-gray-700/60 p-5 rounded-xl">
+          <h3 class="font-bold text-indigo-400 text-sm uppercase tracking-wide mb-2">Infrastructure</h3>
+          <p class="text-gray-300 text-sm">Linux administration, Nginx, Apache, LiteSpeed, cPanel/WHM automation, release pipelines, monitoring</p>
+        </div>
+        <div class="bg-gray-800/40 border border-gray-700/60 p-5 rounded-xl">
+          <h3 class="font-bold text-indigo-400 text-sm uppercase tracking-wide mb-2">Integrations</h3>
+          <p class="text-gray-300 text-sm">Paystack, ALAT Pay (Wema Bank), VTU carrier APIs, automated provisioning, recurring billing</p>
+        </div>
+        <div class="bg-gray-800/40 border border-gray-700/60 p-5 rounded-xl">
+          <h3 class="font-bold text-indigo-400 text-sm uppercase tracking-wide mb-2">Frontend</h3>
+          <p class="text-gray-300 text-sm">JavaScript, Tailwind CSS, Bootstrap, HTML5, CSS3, UI/UX wireframing</p>
+        </div>
+        <div class="bg-gray-800/40 border border-gray-700/60 p-5 rounded-xl">
+          <h3 class="font-bold text-indigo-400 text-sm uppercase tracking-wide mb-2">Practice</h3>
+          <p class="text-gray-300 text-sm">Agile/Scrum, sprint planning, code review, PRDs, technical documentation, team leadership</p>
+        </div>
       </div>
     </div>
   </section>
 
-  <!-- Contact & Footer -->
-  <footer id="contact" class="border-t border-gray-800 bg-gray-950 py-12">
-    <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-6 text-center md:text-left">
-      <div>
-        <h3 class="text-lg font-bold text-white">Let's Build Something Together</h3>
-        <p class="text-gray-400 text-xs mt-1">Open for Senior Developer, Technical Director, and Tech PM roles.</p>
+  <!-- Open Source -->
+  <section class="py-20 max-w-6xl mx-auto px-6">
+    <div class="mb-8">
+      <h2 class="text-3xl font-bold text-white">Open source</h2>
+      <p class="text-gray-400 text-sm mt-2">Patterns extracted from production work. Most client code is private.</p>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div class="bg-gray-800/40 border border-gray-700/60 rounded-xl p-5">
+        <h3 class="font-bold text-white">Laravel Multi-Tenant Starter</h3>
+        <p class="text-gray-400 text-sm mt-2 leading-relaxed">Dynamic multi-tenant SaaS boilerplate with isolated database connections per request context, dynamic middleware resolution and fail-safe API routing.</p>
+        <a href="https://github.com/opeyemi-yusuf-dev/laravel-multitenant-starter" target="_blank" rel="noopener" class="inline-block mt-3 text-indigo-400 hover:text-indigo-300 text-sm font-medium">View repository &rarr;</a>
       </div>
-      <div class="flex gap-4">
-        <a href="https://github.com/opeyemi-yusuf-dev" target="_blank" class="bg-gray-800 hover:bg-gray-700 text-gray-200 text-xs px-4 py-2.5 rounded-lg border border-gray-700 transition">
-          GitHub
-        </a>
+      <div class="bg-gray-800/40 border border-gray-700/60 rounded-xl p-5">
+        <h3 class="font-bold text-white">Paystack Checkout MicroStore</h3>
+        <p class="text-gray-400 text-sm mt-2 leading-relaxed">Single-page checkout integrated with the Paystack Inline JS modal, metadata payload formatting and webhook event verification.</p>
+        <div class="flex gap-4 mt-3">
+          <a href="https://github.com/opeyemi-yusuf-dev/onepage-paystack-store" target="_blank" rel="noopener" class="text-gray-400 hover:text-white text-sm font-medium">Repository</a>
+          <a href="https://opeyemi-yusuf-dev.github.io/onepage-paystack-store/" target="_blank" rel="noopener" class="text-indigo-400 hover:text-indigo-300 text-sm font-medium">Live demo &#8599;</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <footer id="contact" class="border-t border-gray-800 bg-gray-950 py-16">
+    <div class="max-w-6xl mx-auto px-6">
+      <div class="text-center max-w-2xl mx-auto space-y-4">
+        <h2 class="text-3xl font-bold text-white">Let's talk</h2>
+        <p class="text-gray-400 text-sm leading-relaxed">
+          Open to senior backend, full-stack and technical product roles &mdash; remote or relocation. Based in Lagos, working UTC+1, which overlaps a full European day and the European morning from the US East Coast.
+        </p>
+        <div class="pt-4">
+          <a href="mailto:opeyemimorenikeji78@gmail.com" class="inline-block bg-indigo-600 hover:bg-indigo-500 text-white px-8 py-3 rounded-lg font-medium transition shadow-lg shadow-indigo-600/20">
+            opeyemimorenikeji78@gmail.com
+          </a>
+        </div>
+        <div class="flex flex-wrap justify-center gap-3 pt-6">
+          <a href="https://www.linkedin.com/in/opeyemi-yusuf-67b26818b" target="_blank" rel="noopener" class="bg-gray-800 hover:bg-gray-700 text-gray-200 text-xs px-4 py-2.5 rounded-lg border border-gray-700 transition">LinkedIn</a>
+          <a href="https://github.com/opeyemi-yusuf-dev" target="_blank" rel="noopener" class="bg-gray-800 hover:bg-gray-700 text-gray-200 text-xs px-4 py-2.5 rounded-lg border border-gray-700 transition">GitHub</a>
+          <a href="https://gitlab.com/opeyemimorenikeji78" target="_blank" rel="noopener" class="bg-gray-800 hover:bg-gray-700 text-gray-200 text-xs px-4 py-2.5 rounded-lg border border-gray-700 transition">GitLab</a>
+        </div>
+        <p class="text-gray-600 text-xs pt-8">&copy; 2026 Yusuf Opeyemi Morenikeji</p>
       </div>
     </div>
   </footer>
